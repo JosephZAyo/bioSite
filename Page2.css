@@ -1,53 +1,74 @@
-/*Author: Joseph Ayo*/
-/*Assignment 2.2 - CSD 340*/
+/* Author: Joseph Ayo */
+/* Assignment 10.2 - CSD 340 */
 
 body {
-    font-size: 16px;
+    font-size: 14px; /* Slightly smaller text */
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #979797ba; /* Light grey background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.column {
+    width: 30%;
+    background-color: #d6d6d6;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.column img {
+    width: 400px;
+    height: 400px; 
+    object-fit: cover; 
+    display: block;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+.column hr {
+    border: 0.5px solid #ccc; 
+    width: 40%;
+    margin: 10px auto;
 }
 
 p {
-    font-weight: 400;
+    font-size: 14px; 
     line-height: 1.4em;
-    margin-bottom: 15px;
+    text-align: justify;
+    padding: 0 10px;
 }
 
 h1 {
     font-weight: 700;
-    text-align: center; 
-    font-size: 3.75em; /* Increased by 20px (original 2.5em = 40px, now 60px) */
+    font-size: 2.5em; 
     color: #333;
 }
 
-h2, h3, h4 {
-    text-align: center;
-    background-position: center;
-}
-
-h2 {
-    font-size: 3em; /* Increased by 20px (original 2em = 32px, now 52px) */
-    color: #555;
-}
-
 h3 {
-    font-size: 2.5em; /* Increased by 20px (original assumed ~1.75em, now 44px) */
-}
-
-h4 {
-    font-size: 2em; /* Increased by 20px */
-}
-
-address {
-    text-align: center; 
-    font-style: italic;
+    font-size: 1.3em; 
+    color: #555;
 }
 
 a {
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.25em;
+    font-size: 1em;
     color: #4F3674;
 }
 
@@ -60,16 +81,15 @@ a:visited {
     color: #451158;
 }
 
-.sentence {
-    font-style: italic;
-    color: #d9534f; 
-}
-
-.intro {
-    text-indent: 2em; 
-}
-
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.back-link {
+    color: blue;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
 }

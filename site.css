@@ -1,10 +1,10 @@
 /* Author: Joseph Ayo
-   Assignment 3.2 - CSD 340 */
+   Assignment 10.2 - CSD 340 */
    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
    body {
        background-color: #979797ba; /* Light grey background */
-       text-align: center; /* Centers text content */
+       text-align: center; 
        margin: 0;
        padding: 0;
    }
@@ -13,7 +13,7 @@
        margin-top: 50px;
        margin-left: auto;
        margin-right: auto;
-       width: 80%; /* Keeps content centered */
+       width: 80%; 
        
    }
    
@@ -24,12 +24,12 @@
        border: 1px solid #031407; 
        padding: 10px;
        font-family: 'Roboto', sans-serif;
-       font-size: 20px; /* Base font size increase */
+       font-size: 20px; 
    }
    
    h1 {
        font-size: 40px; 
-       font-weight: bold; /* Bold h1 */
+       font-weight: bold; 
    }
    
    h2 {
